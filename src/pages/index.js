@@ -1,20 +1,49 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
-
+import Hero from "../components/RESUABLE/Hero"
+import Infoblock from "../components/RESUABLE/Infoblock"
+import {graphql} from "gatsby"
+import Dualinfoblock from "../components/RESUABLE/Dualinfoblock"
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
-const IndexPage = () => (
+const IndexPage = ({data}) => (
+
+
+
   <Layout>
-    <div className={styles.textCenter}>
-      
-
-
-    </div>
     
+
+     <Hero
+    img = {data.img.childImageSharp.fluid}
+    title=" i write code" 
+    subtitle="buildwithme "
+    heroclass="hero-background"
+     />
+
+
+
+   <Infoblock heading="About Us"/>
+
+<Dualinfoblock heading="Our team"/>
+
+
+
   </Layout>
 )
-export const Head = () => <Seo title="Home" />
+
+export const query = graphql`
+
+{
+  img: file(relativePath : {eq: "heromain.jpg"}) {
+       childImageSharp {
+          fluid {
+           ...GatsbyImageSharpFluid_tracedSVG
+          }
+       }
+   }
+}
+`
+
+
 
 export default IndexPage

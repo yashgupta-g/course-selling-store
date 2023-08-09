@@ -14,15 +14,11 @@ const Layout = ({ children }) => {
 
   return (
     <div>
-        <main>{children}</main>
-
-      <Nav>
-        
-      </Nav>
-        <Footer>
-          
-        </Footer>
-      </div>
+     
+      <Nav />
+      {children}
+      <Footer />
+    </div>
   )
 }
 
