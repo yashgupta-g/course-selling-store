@@ -4,6 +4,7 @@ import Hero from "../components/RESUABLE/Hero"
 import Infoblock from "../components/RESUABLE/Infoblock"
 import {graphql} from "gatsby"
 import Dualinfoblock from "../components/RESUABLE/Dualinfoblock"
+import Teamphoto from "../components/RESUABLE/Teamphoto"
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const About = ({data}) => (
@@ -17,14 +18,14 @@ const About = ({data}) => (
     img = {data.img.childImageSharp.fluid}
     title=" i write code" 
     subtitle="buildwithme "
-    heroclass="hero-background"
+    heroclass="about-background"
      />
 
 
 
-   <Infoblock heading="About Us"/>
-
-<Dualinfoblock heading="Our team"/>
+<Dualinfoblock heading="A Message from CEO"/>
+   <Infoblock heading="Our Vision"/>
+<Teamphoto/>
 
 
 
