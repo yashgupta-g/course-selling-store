@@ -16,7 +16,7 @@ export default function Teamphoto() {
                 <h5 class="card-title">Thomas</h5>
                 <p class="card-text">
                   This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
+                  lead-in todfvn  additional content. This content is a little bit
                   longer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ipsa labore magnam laboriosam nobis reprehenderit sequi, amet quam eius autem sit, quos exercitationem fugiat fugit praesentium voluptatem dolorum ea unde. Ab at delectus placeat harum nam tenetur veniam, perspiciatis, facilis, impedit velit dolores quam culpa consequuntur ad aliquid nihil similique.
                 </p>
               </div>
