@@ -7,6 +7,10 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+require('dotenv').config({
+  path: `.env.devlopment`,
+  
+})
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -43,11 +47,18 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `your_space_id_grab_it_from_contentful`,
-        accessToken: `your_token_id_grab_it_from_contentful`,
+        spaceId: `6baaemcy5gsg`,
+        accessToken: `LjgR8QbiZ9CtVuRhuTLoUXilo6ghzD-0NEDW5oCUQS8`,
       },
     }, 
 
+{
+			resolve: 'gatsby-plugin-snipcart',
+			options: {
+				apiKey: 'YOUR_SNIPCART_KEY'
+        autopop: true
+			}
+		},
 
 
 
