@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../../images/logo.png'
+import logo from '../../images/codexo-logo.png'
 import { Link } from 'gatsby'
 import {FaCartArrowDown} from 'react-icons/fa'
 
@@ -56,7 +56,7 @@ navbarClass:" collapse navbar-collapse show  "
     return (
       <nav className="navbar navbar-expand-sm bg-theme  text-white">
         <Link to="/" className="navbar-brand ml-5">
-          <img src={logo} alt="logo" width="40px" />
+          <img src={logo} alt="logo" width="80px" />
         </Link>
 
         <button

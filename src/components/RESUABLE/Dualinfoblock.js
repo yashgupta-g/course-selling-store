@@ -1,6 +1,5 @@
 import React from 'react'
 import Heading from './Heading'
-import { Link } from 'gatsby'
 
 export default function Dualinfoblock({heading}) {
   return (
@@ -25,12 +24,12 @@ export default function Dualinfoblock({heading}) {
 
           </div>
           <div className="col-4">
-          <div class="card" >
-  <img src="https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-block btn-warning">Connect</a>
+          <div className="card" >
+  <img src="https://images.pexels.com/photos/1181438/pexels-photo-1181438.jpeg?auto=compress&cs=tinysrgb&w=600" className="card-img-top" alt="..."/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a  className="btn btn-block btn-warning">Connect</a>
   </div>
 </div>
 

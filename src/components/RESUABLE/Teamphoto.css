@@ -1,0 +1,37 @@
+.cardcontainer .course {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+}
+.cardcontainer .course:hover {
+    -webkit-box-shadow: 0 0 6px 5px #ddd;
+    box-shadow: 0 0 6px 5px #ddd;
+    border-radius: 6px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    border: 1px solid #dee2e6;
+}
+.cardcontainer .course .spk-img {
+    position: relative;
+}
+
+.cardcontainer .course .desc {
+    text-align: left;
+    padding: 30px 0;
+}
+.cardcontainer .course .desc h3 {
+    color: #252525;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    text-transform: capitalize;
+}
+.mb50 {
+    margin-bottom: 50px;
+}

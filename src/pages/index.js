@@ -4,7 +4,7 @@ import Hero from "../components/RESUABLE/Hero"
 import Infoblock from "../components/RESUABLE/Infoblock"
 import {graphql} from "gatsby"
 import Dualinfoblock from "../components/RESUABLE/Dualinfoblock"
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
+import Coursecart from "../components/cart/Coursecart"
 
 const IndexPage = ({data}) => (
 
@@ -23,7 +23,7 @@ const IndexPage = ({data}) => (
 
 
    <Infoblock heading="About Us"/>
-
+<Coursecart courses= {data.courses}/>
 <Dualinfoblock heading="Our team"/>
 
 
@@ -32,16 +32,30 @@ const IndexPage = ({data}) => (
 )
 
 export const query = graphql`
+  {
+    img: file(relativePath: { eq: "heromain.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
 
-{
-  img: file(relativePath : {eq: "heromain.jpg"}) {
-       childImageSharp {
-          fluid {
-           ...GatsbyImageSharpFluid_tracedSVG
+    courses:allContentfulCourses{
+    
+      edges{
+        node {
+          id
+          title
+          price
+          description{
+            description
           }
-       }
-   }
-}
+       
+        }
+      }
+    }
+  }
 `
 
 
