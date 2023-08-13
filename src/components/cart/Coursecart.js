@@ -34,7 +34,7 @@ export default class Coursecart extends Component {
                       <div class="spk-img">
                         <img
                           class="img-fluid"
-                          src="https://mcdn.wallpapersafari.com/medium/84/10/boxwcT.jpg"
+                          src="https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30731.jpg?size=626&ext=jpg&ga=GA1.2.289557629.1691966195&semt=ais"
                           alt="trainer-img"
                         />
                         <div className='centered text-uppercase  '>
@@ -43,15 +43,21 @@ export default class Coursecart extends Component {
                       </div>
                       <div class="desc">
                         <p className='mb-2'>{node.description.description}</p>
-                        <h3 className='mb-4'>INR {node.price} -/</h3>
-                        <button
-                    data-item-id={Node.id}
-                    data-item-price={Node.price}
-                    data-item-name={Node.name}
-                    className=" btn btn-primary "
+                        <h3 className='mb-4 text-success font-weight-bold'>$ {node.price}/-</h3>
+
+
+                    <button
+                    data-item-id={node.id}
+                    data-item-price={node.price}
+                    data-item-name={node.title}
+                    data-item-url="www.google.com"
+                    className=" btn btn-primary snipcart-add-item "
                   >
                     Add to cart
                   </button>
+
+
+
                       </div>
                     </div>
                   </div>
