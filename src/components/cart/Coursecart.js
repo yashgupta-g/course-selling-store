@@ -20,7 +20,7 @@ export default class Coursecart extends Component {
             <div class="col-lg-12">
               <div class="section-title text-center">
                 <div class="title-text mb50">
-                  <Heading title="courses " />
+                  <Heading title="Courses " />
                 </div>
               </div>
             </div>
