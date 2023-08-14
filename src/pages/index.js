@@ -6,28 +6,17 @@ import {graphql} from "gatsby"
 import Dualinfoblock from "../components/RESUABLE/Dualinfoblock"
 import Coursecart from "../components/cart/Coursecart"
 
-const IndexPage = ({data}) => (
-
-
-
+const Index = ({ data }) => (
   <Layout>
-    
-
-     <Hero
-    img = {data.img.childImageSharp.fluid}
-    title=" I Write Code" 
-    subtitle="Build With Me "
-    heroclass="hero-background"
-     />
-
-
-
-   <Infoblock heading="About Us"/>
-<Coursecart courses= {data.courses}/>
-<Dualinfoblock heading="Our team"/>
-
-
-
+    <Hero
+      img={data.img.childImageSharp.fluid}
+      title=" I Write Code"
+      subtitle="Build With Me "
+      heroclass="hero-background"
+    />
+    <Infoblock heading="About Us" />
+    <Coursecart courses={data.courses} />
+    <Dualinfoblock heading="Our team" />
   </Layout>
 )
 
@@ -60,4 +49,4 @@ export const query = graphql`
 
 
 
-export default IndexPage
+export default Index
