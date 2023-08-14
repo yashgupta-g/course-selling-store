@@ -56,7 +56,7 @@ navbarClass:" collapse navbar-collapse show  "
     return (
       <nav className="navbar navbar-expand-sm bg-theme  text-white">
         {/* <Link to="/" className="navbar-brand ml-5"> */}
-          <img src={logo} alt="logo" width="80px" />
+          {/* <img src={logo} alt="logo" width="80px" /> */}
         {/* </Link> */}
 
         <button

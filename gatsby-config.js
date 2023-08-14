@@ -11,6 +11,9 @@
 module.exports = {
 
   
+  flags: {
+    DEV_SSR: true
+  },
 
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -19,9 +22,7 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
 
-  flags: {
-    DEV_SSR: true
-  },
+ 
 
 
   plugins: [
