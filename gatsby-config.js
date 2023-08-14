@@ -7,10 +7,7 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
-require('dotenv').config({
-  path: `.env.devlopment`,
-  
-})
+
 module.exports = {
 
   
@@ -23,10 +20,10 @@ module.exports = {
   },
 
   flags: {
-    DEV_SSR: true,
+    DEV_SSR: true
   },
 
-  
+
   plugins: [
     `gatsby-plugin-image`,
     {
