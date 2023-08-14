@@ -7,7 +7,7 @@ export default function Teamphoto() {
     <div className="cardcontainer course  ">
       <div className="container   ">
         <div className="row mx-auto text-center ">
-          <div clasNames="col-lg-12">
+          <div clasName="col-lg-12">
             <div className="section-title text-center">
               <div className="title-text mb50 ">
                 <Heading title="Our Team  " className=" text-danger" />

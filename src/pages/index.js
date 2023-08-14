@@ -11,7 +11,6 @@ const Index = ({ data }) => (
     <Hero
       img={data.img.childImageSharp.fluid}
       title=" I Write Code"
-      subtitle="Build With Me "
       heroclass="hero-background"
     />
     <Infoblock heading="About Us" />

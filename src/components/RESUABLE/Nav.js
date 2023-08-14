@@ -55,9 +55,9 @@ navbarClass:" collapse navbar-collapse show  "
   render() {
     return (
       <nav className="navbar navbar-expand-sm bg-theme  text-white">
-        {/* <Link to="/" className="navbar-brand ml-5"> */}
-          {/* <img src={logo} alt="logo" width="80px" /> */}
-        {/* </Link> */}
+        <Link to="/" className="navbar-brand ml-5"> 
+          <img src={logo} alt="logo" width="80px" />
+        </Link>
 
         <button
           className=" navbar-toggler"
