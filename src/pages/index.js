@@ -6,6 +6,7 @@ import {graphql} from "gatsby"
 import Dualinfoblock from "../components/RESUABLE/Dualinfoblock"
 import Coursecart from "../components/cart/Coursecart"
 import Cards from "../components/RESUABLE/Cards"
+
 const Index = ({ data }) => (
   <Layout>
     <Hero
@@ -17,6 +18,7 @@ const Index = ({ data }) => (
     <Infoblock heading="About Us" />
     <Coursecart courses={data.courses} />
     <Dualinfoblock heading="Our team" />
+  
   </Layout>
 )
 

@@ -25,10 +25,10 @@ export default class Coursecart extends Component {
             </div>
           </div>
 
-          <div className=" row ">
+          <div className=" row  ">
             {this.state.mycourses.map(({ node }) => {
               return (
-                <div key={node.id} className=" row mb50 col d-flex mx-auto ">
+                <div key={node.id} className=" row mb50 col d-flex mx-auto  ">
                   <div className="card">
                     <div className="imgbox mx-auto">
                       <h4 className=" font-weight-bold  text-light text-uppercase p-3 mx-auto  ">

@@ -4,12 +4,12 @@ export default function Footer() {
   return (
     <footer className=" col text-center text-white bg-white ">
       <div className="ratio ratio-16x9 ">
-        <iframe
+        {/* <iframe
           className="shadow-1-strong rounded mt-5"
           src="https://www.youtube.com/embed/vlDzYIIOYmM"
           title="YouTube video"
           allowfullscreen
-        ></iframe>
+        ></iframe> */}
       </div>
 
       <div className="text-center p-3 text-dark">
