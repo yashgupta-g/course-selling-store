@@ -5,13 +5,13 @@ import Infoblock from "../components/RESUABLE/Infoblock"
 import {graphql} from "gatsby"
 import Dualinfoblock from "../components/RESUABLE/Dualinfoblock"
 import Coursecart from "../components/cart/Coursecart"
-
+import Cards from "../components/RESUABLE/Cards"
 const Index = ({ data }) => (
   <Layout>
     <Hero
       img={data.img.childImageSharp.fluid}
       title=" I Write Code"
-      subtitle={="Build With Me "}
+      subtitle="Build With Me "
       heroclass="hero-background"
     />
     <Infoblock heading="About Us" />
@@ -22,7 +22,7 @@ const Index = ({ data }) => (
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "heromain.jpg" }) {
+    img: file(relativePath: { eq: "hero.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG

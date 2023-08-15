@@ -10,14 +10,9 @@ export default function Infoblock({ heading }) {
         <div className="row">
           <div className="col-10 col-sm mx-auto text-center">
             <p className="lead text-white mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              ipsam voluptatem quidem ea? Excepturi error reiciendis totam
-              corrupti natus architecto ratione dolorum pariatur recusandae
-              amet, tempora aspernatur alias maiores veniam autem laborum
-              sapiente ullam eos quisquam doloremque? Rerum ratione voluptas
-              aperiam accusantium laborum ipsam officiis quos vitae quasi
-              similique, molestiae dignissimos deserunt eum, quae libero ut!
-              Eveniet ipsam vel eaque.
+            Welcome to CodeXo, your ultimate destination for unlocking the world of coding and programming excellence! At CodeXo, we are passionate about empowering individuals to master the art of coding and embrace the boundless opportunities it offers in the digital age.
+
+Our mission at CodeXo is to make coding education accessible, engaging, and transformative. We believe that coding is more than just a skill – it's a key that opens doors to innovation, problem-solving, and creativity. Through our carefully crafted courses and comprehensive learning resources, we strive to ignite the spark of curiosity and equip learners of all backgrounds with the tools they need to thrive in a technology-driven world.
             </p>
             <Link to="/about/">
               <button className="btn btn-warning btn-lg">{heading}</button>
