@@ -13,7 +13,7 @@ export default class Coursecart extends Component {
   render() {
     console.log(this.state.courses)
     return (
-      <div className="container course ">
+      <div className="container course  bg-dark ">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

@@ -28,10 +28,11 @@ export default function Teamphoto() {
                   />
                 </div>
                 <div className="desc">
-                  <h4>Paul</h4>
-                  <p className="mb-2">
+                  <h4>lia</h4>
+                  <p classNam="mb-2">
                     Lorem ipsum dolor, sit amet
                   </p>
+                
                 </div>
               </div>
             </div>
@@ -49,7 +50,7 @@ export default function Teamphoto() {
                   />
                 </div>
                 <div className="desc">
-                  <h4>Lia</h4>
+                  <h4>paul</h4>
                   <p className="mb-2">
                     Lorem ipsum dolor, sit amet co
                   </p>
